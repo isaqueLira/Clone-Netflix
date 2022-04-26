@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+    <title>MEXFLIX</title>
+</head>
+<body>
+    <header>
+        <div class="container-navbar">
+            <h2 class="logo">MEXFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a> 
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+        <div class="novela-principal">
+                <h3 class="titulo">CAFÉ COM AROMA DE MULHER</h3>
+                <p class="descricao">Este remake da novela clássica de 1994 conta história de amor entre a trabalhadora rural Gaviota e Sebastián, um herdeiro da aristocracia cafeeira.</p>
+                <div role="button" class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button onclick="acaoInfo()" role="button" class="botao">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                    <div class="modalInfo">
+                        <div onclick="fecharInfo()" class="fecharInfo">
+                            <i class="fa-regular fa-circle-xmark"></i>
+                        </div>
+                        <p class="descricaoInfo">Todos os anos, Gaviota (Laura Londoño) e sua mãe chegam à Fazenda Casablanca para pegar o café da segunda safra do ano, mas esperam que a próxima visita seja a última, pois a partir de agora serão donas de suas próprias terras. No entanto, o destino tem outros planos. Octavio Vallejo, proprietário da fazenda, acaba de falecer. Gaviota já o havia salvado de um sequestro. Octavio prometeu como recompensa dar-lhe um hectare de terra para que ela pudesse plantar seu próprio café. Tentando fazer com que a família Vallejo honre o acordo, Gaviota conhece Sebastián (William Levy), filho de Octavio, e uma atração irreprimível nasce entre eles, um amor doloroso e impossível, tornando-se dois amantes que pertencem a mundos diferentes.</p>
+                    </div>
+                </div>
+        </div>
+    </header>  
+    
+    <main>
+        <div class="carrosel-novelas">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-novela" src="img/nov01.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-novela" src="img/nov02.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-novela" src="img/nov03.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-novela" src="img/nov04.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-novela" src="img/nov05.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-novela" src="img/nov06.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-novela" src="img/nov07.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-novela" src="img/nov08.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-novela" src="img/nov09.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="box-novela" src="img/nov10.jpg" alt="">
+                </div>
+            </div> 
+        </div>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <a target =" _blank " href =" https://github.com/isaqueLira ">@isaqueLira</a></p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/b8c0c7c0a5.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>
